@@ -8,7 +8,7 @@ for(const empty of empties) {
     empty.addEventListener('dragover', dragOver);
     empty.addEventListener('dragenter', dragEnter);
     empty.addEventListener('dragleave', dragLeave);
-    empty.addEventListener('drag', dragDrop);
+    empty.addEventListener('drop', dragDrop);
 }
 
 function dragStart() {

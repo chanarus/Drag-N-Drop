@@ -1,0 +1,35 @@
+body {
+    background-color: darksalmon;
+}
+
+.fill {
+    background-image: url('http://source.unsplash.com/random/175x175');
+    position: relative;
+    width: 175px;
+    height: 175px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.empty {
+    display: inline-block;
+    height: 185px;
+    width: 185px;
+    margin: 10px;
+    background-color: white;
+    border: darksalmon solid 3px;
+}
+
+.hold {
+    border: solid 4px #ccc
+}
+
+.hoverd {
+    border-style: dotted;
+    background: #f4f4f4;
+}
+
+.invisible {
+    display: none;
+}
